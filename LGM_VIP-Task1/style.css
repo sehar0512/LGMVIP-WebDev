@@ -1,0 +1,227 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+.navBg .container h2 {
+  padding: 0px;
+  margin: 0px;
+}
+.navBg .container h2 img {
+  padding: 0px;
+  margin: 0px;
+  height: 100px;
+  width: 100px;
+}
+.navItems {
+  padding: 4px;
+}
+.mainHead {
+  text-align: center;
+}
+.mainHead h1 {
+  padding: 80px;
+  color: #ecb602;
+  font-size: 4rem;
+  text-shadow: 3px 3px 9px #ecb602;
+}
+.home {
+  background-image: url("bg.jpg");
+  /* background-color: #290849; */
+  background-size: cover;
+  background-position-x: top;
+  height: 90vh;
+}
+.homeBox {
+  background-color: #290849;
+  height: 75vh;
+  width: 110vh;
+  margin: auto;
+  border: 8px dashed #ecb602;
+}
+.homeBox .row {
+  color: white;
+  margin: 50px 0px;
+  padding: 20px 0px;
+}
+.homeBox .row .col-4 {
+  margin: 10px 20px;
+}
+.homeBox .row .col-6 {
+  margin: 10px 20px;
+}
+.about {
+  height: 30vh;
+}
+#skills h1,
+h3 {
+  text-align: center;
+  margin-top: 5px;
+}
+#skills .col {
+  color: #290849;
+}
+.skills {
+  text-align: center;
+}
+#portfolio {
+  text-align: center;
+  margin: 40px 0px;
+}
+.portfolio .row {
+  margin: auto;
+}
+.imgContent {
+  background-color: rgba(41, 8, 73, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContent:hover {
+  background-color: rgba(41, 8, 73, 0.6);
+}
+#portfolio .card-title {
+  color: #ecb602;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 9px #ecb602;
+}
+.contact {
+  background-image: url("contactBG.jpg");
+  background-size: cover;
+  height: 70vh;
+}
+.navBg {
+  background-color: #290849;
+  height: 85px;
+}
+.navBg .container a {
+  color: white;
+}
+.navBg .container a:hover {
+  color: white;
+}
+.navBg .container a:visited {
+  color: white;
+}
+.navBg .container .navItems ul {
+  margin: 0px auto;
+}
+.navBg .container .navItems ul li a {
+  color: white;
+}
+.navBg .container .navItems ul li a:hover {
+  color: #ecb602;
+}
+.contactCont {
+  padding-top: 60px;
+  background-color: rgba(226, 199, 110, 0.5);
+  height: 70vh;
+  display: flex;
+}
+.contactBox {
+  width: 450px;
+  background-color: white;
+  border-top: 8px solid black;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 3px;
+  text-align: center;
+}
+.contactBox form {
+  display: grid;
+  padding: 0px 25px;
+}
+.form-control {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0%;
+  padding: 5px 0px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 2px solid black;
+}
+.redLine {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(228, 5, 5);
+  border-radius: 0%;
+  padding: 5px 0px;
+}
+.formBtn {
+  background-color: black;
+  margin: 2px auto;
+  padding: 5px 10px;
+  color: white;
+}
+.formBtn:focus,
+.formBtn:hover {
+  color: white;
+  box-shadow: none;
+}
+.details {
+  /* background-color: black; */
+  margin: auto;
+  color: black;
+  width: 600px;
+}
+.info {
+  margin: auto;
+  padding: 5px;
+  color: black;
+}
+.contact a:hover {
+  color: black;
+}
+.contact a:visited {
+  color: black;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 0px auto;
+  text-align: center;
+}
+.footerNav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 15px;
+}
+.footerNav ul li {
+  padding: 0px 10px;
+}
+footer .row .col h3 {
+  color: #ecb602;
+}
+footer .row .footerNav a {
+  color: white;
+}
+hr {
+  border: 1px solid #290849;
+}
+
+@media only screen and (max-width: 840px) {
+  #portfolio .card-title {
+    font-size: 1.5rem;
+  }
+  .contactCont {
+    display: block;
+    height: 80vh;
+  }
+  .contact {
+    height: 80vh;
+  }
+  .details {
+    margin: 15px auto;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .homeBox .row {
+    display: block;
+    margin: 0px;
+  }
+}
